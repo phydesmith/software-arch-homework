@@ -1,4 +1,4 @@
-package us.mattgreen;
+package us.mattgreen.talkables;
 
 /**
  * Created by mgreen14 on 12/27/17.

@@ -1,4 +1,4 @@
-package us.mattgreen;
+package us.mattgreen.util;
 
 import java.io.*;
 

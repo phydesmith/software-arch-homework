@@ -1,4 +1,6 @@
-package us.mattgreen;
+package us.mattgreen.talkables.pet;
+
+import us.mattgreen.talkables.Talkable;
 
 /**
  * Created by mgreen14 on 12/28/17.

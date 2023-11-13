@@ -1,5 +1,13 @@
 package us.mattgreen;
 
+import us.mattgreen.talkables.TalkableCreator;
+import us.mattgreen.talkables.pet.Cat;
+import us.mattgreen.talkables.pet.Dog;
+import us.mattgreen.talkables.Talkable;
+import us.mattgreen.talkables.person.Teacher;
+import us.mattgreen.util.FileInput;
+import us.mattgreen.util.FileOutput;
+
 import java.util.ArrayList;
 
 public class Main {
@@ -11,9 +19,8 @@ public class Main {
         ArrayList<Talkable> zoo = new ArrayList<>();
 
         // Lines to Replace Begin Here
-        zoo.add(new Dog(true, "Bean"));
-        zoo.add(new Cat(9, "Charlie"));
-        zoo.add(new Teacher(44, "Stacy Read"));
+        TalkableCreator tc = new TalkableCreator(zoo);
+        tc.create();
         // End Lines to Replace
 
         for (Talkable thing : zoo) {
